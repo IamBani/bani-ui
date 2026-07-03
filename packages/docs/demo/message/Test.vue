@@ -1,22 +1,20 @@
+<template>
+  <div>
+    <bn-button @click="open1">插件式调用</bn-button>
+    <bn-button @click="open2">函数式调用</bn-button>
+  </div>
+</template>
+
 <script lang="ts" setup>
-import { ErMessage } from "toy-element";
+import { BnMessage } from "bani-ui";
 
 const open1 = () => {
-  ErMessage({
+  BnMessage({
     message: "Congrats, this is a success message.",
     type: "success",
   });
 };
 const open2 = () => {
-  ErMessage.success("Congrats, this is a success message.");
+  BnMessage.success("Congrats, this is a success message.");
 };
 </script>
-<template>
-  <div>
-    <er-button @click="open1">插件式调用</er-button>
-    <er-button @click="open2">函数式调用</er-button>
-    <er-button @click="$message.success('Congrats, this is a success message.')"
-      >全局方法调用</er-button
-    >
-  </div>
-</template>

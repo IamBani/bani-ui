@@ -1,13 +1,18 @@
+<template>
+  <bn-button :plain="true" @click="open">Show message</bn-button>
+  <bn-button :plain="true" @click="openVn">VNode</bn-button>
+</template>
+
 <script lang="ts" setup>
 import { h } from "vue";
-import { ErMessage } from "toy-element";
+import { BnMessage } from "bani-ui";
 
 const open = () => {
-  ErMessage("This is a message.");
+  BnMessage("This is a message.");
 };
 
 const openVn = () => {
-  ErMessage({
+  BnMessage({
     message: h("p", { style: "line-height: 1; font-size: 14px" }, [
       h("span", null, "Message can be "),
       h("i", { style: "color: teal" }, "VNode"),
@@ -15,8 +20,3 @@ const openVn = () => {
   });
 };
 </script>
-
-<template>
-  <er-button :plain="true" @click="open">Show message</er-button>
-  <er-button :plain="true" @click="openVn">VNode</er-button>
-</template>

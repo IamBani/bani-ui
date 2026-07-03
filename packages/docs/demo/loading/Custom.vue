@@ -1,15 +1,7 @@
-<script setup>
-import { ref } from "vue";
-
-const isLoading = ref(true);
-const activeNames = ref(["1", "2"]);
-</script>
 <template>
   <div class="container">
-    <er-collapse v-model="activeNames">
-      <er-collapse-item
-        title="Consistency"
-        name="1"
+    <div>
+      <div
         v-loading="isLoading"
         er-loading-text="Loading..."
         er-loading-spinner="circle-notch"
@@ -23,8 +15,8 @@ const activeNames = ref(["1", "2"]);
           Consistent within interface: all elements should be consistent, such
           as: design style, icons and texts, position of elements, etc.
         </div>
-      </er-collapse-item>
-      <er-collapse-item title="Feedback" name="2" v-loading="isLoading">
+      </div>
+      <div v-loading="isLoading">
         <div>
           Operation feedback: enable the users to clearly perceive their
           operations by style updates and interactive effects;
@@ -33,10 +25,19 @@ const activeNames = ref(["1", "2"]);
           Visual feedback: reflect current state by updating or rearranging
           elements of the page.
         </div>
-      </er-collapse-item>
-    </er-collapse>
+      </div>
+    </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref } from "vue";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+library.add(faCircleNotch);
+
+const isLoading = ref(true);
+</script>
 
 <style scoped>
 :deep(.er-collapse-item) {

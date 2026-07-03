@@ -2,9 +2,9 @@
 title: Tooltip
 description: Tooltip 组件文档
 
-next:
-  link: /components/form
-  text: Form 表单
+# next:
+#   link: /components/form
+#   text: Form 表单
 
 prev:
   link: /components/popconfirm

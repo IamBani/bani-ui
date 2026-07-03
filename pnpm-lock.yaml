@@ -168,8 +168,8 @@ importers:
         specifier: 1.4.1
         version: 1.4.1(markdown-it-container@3.0.0)(vitepress@2.0.0-alpha.17(@types/node@22.13.10)(async-validator@4.2.5)(postcss@8.5.15)(typescript@5.9.3))(vue@3.5.34(typescript@5.9.3))
       bani-ui:
-        specifier: alpha
-        version: 1.0.2-alpha.14(vue@3.5.34(typescript@5.9.3))
+        specifier: latest
+        version: 1.0.1(vue@3.5.34(typescript@5.9.3))
       vitepress:
         specifier: 2.0.0-alpha.17
         version: 2.0.0-alpha.17(@types/node@22.13.10)(async-validator@4.2.5)(postcss@8.5.15)(typescript@5.9.3)
@@ -1477,9 +1477,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  bani-ui@1.0.2-alpha.14:
-    resolution: {integrity: sha512-c3HZvmnzM6O9kESmtk9JifmspkgyHniQvj4fr+iV8uqXylDL+0MVNi6muoAuKJ0clNA6o3XicM4l2a48ZNSufQ==}
-    engines: {node: '>=18.17.0'}
+  bani-ui@1.0.1:
+    resolution: {integrity: sha512-3WQyq2pSOefkFuhD5Emie9S7io/rF4sfDBC7BG2LZMadT+BhaJsj0c/dHXcg4j+6M7kC34KhrccorZeGN9wKkg==}
     peerDependencies:
       vue: ^3.4.19
 
@@ -4718,15 +4717,9 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  bani-ui@1.0.2-alpha.14(vue@3.5.34(typescript@5.9.3)):
+  bani-ui@1.0.1(vue@3.5.34(typescript@5.9.3)):
     dependencies:
-      '@fortawesome/fontawesome-svg-core': 7.2.0
-      '@fortawesome/free-solid-svg-icons': 7.2.0
-      '@fortawesome/vue-fontawesome': 3.2.0(@fortawesome/fontawesome-svg-core@7.2.0)(vue@3.5.34(typescript@5.9.3))
-      '@popperjs/core': 2.11.8
-      async-validator: 4.2.5
       vue: 3.5.34(typescript@5.9.3)
-      vue3-i18n: 1.1.5(vue@3.5.34(typescript@5.9.3))
 
   baseline-browser-mapping@2.10.32: {}
 

@@ -25,7 +25,7 @@
         </slot>
       </div>
       <div class="er-message__close" v-if="showClose">
-        <bn-icon icon="xmark" @click.stop="close" />
+        <bn-icon :icon="faXmark" @click.stop="close" />
       </div>
     </div>
   </Transition>
@@ -39,7 +39,7 @@ import { bind, delay } from "lodash-es";
 import { useEventListener, useOffset } from "@bani/hooks";
 import { getLastBottomOffset } from "./methods";
 import BnIcon from "../Icon/Icon.vue";
-import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
+import { faCircleInfo, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 defineOptions({
   name: "BnMessage",

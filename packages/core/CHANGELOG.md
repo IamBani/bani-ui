@@ -1,5 +1,26 @@
 # bani-ui
 
+## 1.0.2
+
+### Patch Changes
+
+- f2e4cf6: 增加 国际化和组件
+- f2e4cf6: 修改国际化数据变了，页面没有刷新的问题
+- f2e4cf6: 增加 loading 组件
+- f2e4cf6: 增加国际化
+- f2e4cf6: 修改问题
+- f2e4cf6: types 类型问题
+- f2e4cf6: 增加类型
+- f2e4cf6: 增加 Dropdown 组件
+- f2e4cf6: 增加 message 组件
+- 修改 国际化 切换bug
+- f2e4cf6: 增加类型
+- f2e4cf6: 打包产物
+- f2e4cf6: 样式问题
+- f2e4cf6: 样式问题，和路径问题
+- f2e4cf6: 发版错误
+- f2e4cf6: 增加生成依赖
+
 ## 1.0.2-alpha.14
 
 ### Patch Changes

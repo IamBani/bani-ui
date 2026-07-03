@@ -1,5 +1,28 @@
+<template>
+  <div class="row">
+    <bn-dropdown :items="items">
+      <bn-button type="primary">
+        Dropdown List
+        <bn-icon icon="angle-down" style="margin-left: 8px" />
+      </bn-button>
+    </bn-dropdown>
+    <bn-dropdown
+      :items="items"
+      type="primary"
+      @click="handleClick"
+      split-button
+    >
+      Dropdown List
+    </bn-dropdown>
+  </div>
+</template>
+
 <script setup lang="ts">
-import { type DropdownItemProps, ErMessage } from "toy-element";
+import { type DropdownItemProps, BnMessage } from "bani-ui";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faAngleDown);
 
 const items: DropdownItemProps[] = [
   { command: "1", label: "Action 1" },
@@ -9,28 +32,9 @@ const items: DropdownItemProps[] = [
 ];
 
 function handleClick() {
-  ErMessage.info("button click");
+  BnMessage.info("button click");
 }
 </script>
-
-<template>
-  <div class="row">
-    <er-dropdown :items="items">
-      <er-button type="primary">
-        Dropdown List
-        <er-icon icon="angle-down" style="margin-left: 8px" />
-      </er-button>
-    </er-dropdown>
-    <er-dropdown
-      :items="items"
-      type="primary"
-      @click="handleClick"
-      split-button
-    >
-      Dropdown List
-    </er-dropdown>
-  </div>
-</template>
 
 <style scoped>
 .row div {

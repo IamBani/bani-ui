@@ -1,14 +1,14 @@
 ---
-title: Collapse
-description: Collapse 组件文档
-
-next:
-  link: /components/alert
-  text: Alert 提示
+title: Dropdown
+description: Dropdown 组件文档
 
 prev:
-  link: /components/collapse
-  text: Collapse 折叠面板
+  link: /components/button
+  text: Button 按钮
+
+next:
+  link: /components/loading
+  text: Loading 加载
 ---
 
 # Dropdown 下拉菜单

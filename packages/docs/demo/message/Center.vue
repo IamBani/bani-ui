@@ -1,15 +1,15 @@
+<template>
+  <bn-button plain @click="openCenter">Centered text</bn-button>
+</template>
+
 <script lang="ts" setup>
-import { ErMessage } from "toy-element";
+import { BnMessage } from "bani-ui";
 
 const openCenter = () => {
-  ErMessage({
+  BnMessage({
     showClose: true,
     message: "Centered text",
-    center: true
+    center: true,
   });
 };
 </script>
-
-<template>
-  <er-button plain @click="openCenter">Centered text</er-button>
-</template>

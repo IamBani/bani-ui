@@ -38,21 +38,23 @@
 </template>
 
 <script setup lang="ts">
+import type { PopconfirmEmits, PopconfirmProps } from "./types";
+import type { TooltipInstance } from "../Tooltip/types";
 import { computed, ref } from "vue";
 import BnButton from "../Button/Button.vue";
 import BnIcon from "../Icon/Icon.vue";
 import BnTooltip from "../Tooltip/Tooltip.vue";
 import { addUnit } from "@bani/utils";
-import type { TooltipInstance } from "../Tooltip/types";
 import { useLocale } from "@bani/hooks";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
-const t = computed(() => useLocale().value.t);
-
-import type { PopconfirmEmits, PopconfirmProps } from "./types";
 
 defineOptions({
   name: "BnPopconfirm",
 });
+
+const locale = useLocale();
+const t = computed(() => locale.value.t);
+
 const props = withDefaults(defineProps<PopconfirmProps>(), {
   title: "",
   confirmButtonType: "primary",

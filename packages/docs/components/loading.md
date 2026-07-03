@@ -1,14 +1,14 @@
 ---
 title: Loading
-description: Loaidng 组件文档
+description: Loading 组件文档
 
 next:
   link: components/message
   text: Message 消息提示
 
 prev:
-  link: components/alert
-  text: Alert 提示
+  link: components/dropdown
+  text: Dropdown 下拉菜单
 ---
 
 # Loading 加载
@@ -25,7 +25,7 @@ demo-preview=../demo/loading/Basic.vue
 
 ## 自定义加载中组件内容
 
-在绑定了 `v-loading` 指令的元素上添加 `element-loading-text` 属性，其值会被渲染为加载文案，并显示在加载图标的下方。 类似地， `element-loading-spinner`、`element-loading-background` 属性分别用来设定 加载图标、背景色值。
+在绑定了 `v-loading` 指令的元素上添加 `er-loading-text` 属性，其值会被渲染为加载文案，并显示在加载图标的下方。 类似地， `er-loading-spinner`、`er-loading-background` 属性分别用来设定 加载图标、背景色值。
 
 ::: preview
 demo-preview=../demo/loading/Custom.vue
@@ -44,19 +44,19 @@ demo-preview=../demo/loading/Fullscreen.vue
 服务方式调用，可以自定义遮罩的文案，也可以通过 `close` 方法关闭。
 
 ```typescript
-import { ErLoading } from "eric-ui";
+import { BnLoading } from "bani-ui";
 ```
 
 需要的时候通过以下方式调用
 
 ```typescript
-ErLoading.service(options);
+BnLoading.service(options);
 ```
 
 LoadingService 会返回一个 Loading 实例，可通过调用该实例的 close 方法来关闭它
 
 ```typescript
-const loading = ErLoading.service(options);
+const loading = BnLoading.service(options);
 nextTick(() => {
   loading.close();
 });

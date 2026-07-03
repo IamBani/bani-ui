@@ -1,5 +1,41 @@
+<template>
+  <div class="row">
+    <div class="col">
+      <div class="desc">hover to trigger</div>
+      <bn-dropdown :items="items">
+        <span class="dropdown-link">
+          Dropdown List
+          <bn-icon icon="angle-down" />
+        </span>
+      </bn-dropdown>
+    </div>
+    <div class="col">
+      <div class="desc">click to trigger</div>
+      <bn-dropdown :items="items" trigger="click">
+        <span class="dropdown-link">
+          Dropdown List
+          <bn-icon icon="angle-down" />
+        </span>
+      </bn-dropdown>
+    </div>
+    <div class="col">
+      <div class="desc">right click to trigger</div>
+      <bn-dropdown :items="items" trigger="contextmenu">
+        <span class="dropdown-link">
+          Dropdown List
+          <bn-icon icon="angle-down" />
+        </span>
+      </bn-dropdown>
+    </div>
+  </div>
+</template>
+
 <script setup lang="ts">
-import { type DropdownItemProps } from "toy-element";
+import { type DropdownItemProps } from "bani-ui";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faAngleDown);
 
 const items: DropdownItemProps[] = [
   { command: "1", label: "Action 1" },
@@ -8,38 +44,6 @@ const items: DropdownItemProps[] = [
   { command: "4", label: "Action 4", divided: true },
 ];
 </script>
-
-<template>
-  <div class="row">
-    <div class="col">
-      <div class="desc">hover to trigger</div>
-      <er-dropdown :items="items">
-        <span class="dropdown-link">
-          Dropdown List
-          <er-icon icon="angle-down" />
-        </span>
-      </er-dropdown>
-    </div>
-    <div class="col">
-      <div class="desc">click to trigger</div>
-      <er-dropdown :items="items" trigger="click">
-        <span class="dropdown-link">
-          Dropdown List
-          <er-icon icon="angle-down" />
-        </span>
-      </er-dropdown>
-    </div>
-    <div class="col">
-      <div class="desc">right click to trigger</div>
-      <er-dropdown :items="items" trigger="contextmenu">
-        <span class="dropdown-link">
-          Dropdown List
-          <er-icon icon="angle-down" />
-        </span>
-      </er-dropdown>
-    </div>
-  </div>
-</template>
 
 <style scoped>
 .row {

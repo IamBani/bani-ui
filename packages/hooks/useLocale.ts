@@ -7,8 +7,8 @@ import { en as English } from "@bani/locale";
 
 export function useLocale(localeOverrides?: Ref<Language>) {
   if (!localeOverrides) {
+    const injected = inject(i18nSymbol);
     return computed(() => {
-      const injected = inject(i18nSymbol);
       const instance =
         unref(injected) ??
         createI18n({ locale: English.name, messages: { en: English.el } });

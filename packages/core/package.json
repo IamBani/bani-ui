@@ -1,6 +1,6 @@
 {
   "name": "bani-ui",
-  "version": "1.0.2-alpha.14",
+  "version": "1.0.2",
   "type": "module",
   "description": "Components library by Vue3 + TS",
   "main": "./dist/umd/index.umd.cjs",

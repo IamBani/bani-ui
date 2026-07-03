@@ -1,6 +1,22 @@
+<template>
+  <bn-button @click="() => dropdownRef?.open()">open</bn-button>
+  <bn-button @click="() => dropdownRef?.close()">close</bn-button>
+  <br />
+  <bn-dropdown ref="dropdownRef" :items="items">
+    <span class="dropdown-link">
+      Dropdown List
+      <bn-icon icon="angle-down" />
+    </span>
+  </bn-dropdown>
+</template>
+
 <script setup lang="ts">
-import type { DropdownItemProps, DropdownInstance } from "toy-element";
+import type { DropdownItemProps, DropdownInstance } from "bani-ui";
 import { ref } from "vue";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faAngleDown);
 
 const items: DropdownItemProps[] = [
   { command: "1", label: "Action 1" },
@@ -10,18 +26,6 @@ const items: DropdownItemProps[] = [
 ];
 const dropdownRef = ref<DropdownInstance>();
 </script>
-
-<template>
-  <er-button @click="() => dropdownRef?.open()">open</er-button>
-  <er-button @click="() => dropdownRef?.close()">close</er-button>
-  <br />
-  <er-dropdown ref="dropdownRef" :items="items">
-    <span class="dropdown-link">
-      Dropdown List
-      <er-icon icon="angle-down" />
-    </span>
-  </er-dropdown>
-</template>
 
 <style scoped>
 .dropdown-link {

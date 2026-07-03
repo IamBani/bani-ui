@@ -2,9 +2,9 @@
 title: Popconfirm
 description: Popconfirm 组件文档
 
-prev: 
-  link: /components/notification
-  text: Notification 通知
+prev:
+  link: /components/message
+  text: Message 消息提示
 
 next:
   link: /components/tooltip
