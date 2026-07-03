@@ -1,0 +1,64 @@
+{
+  "name": "bani-ui",
+  "version": "1.0.2-alpha.14",
+  "type": "module",
+  "description": "Components library by Vue3 + TS",
+  "main": "./dist/umd/index.umd.cjs",
+  "module": "./dist/es/index.js",
+  "types": "./dist/types/core/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/core/index.d.ts",
+      "import": "./dist/es/index.js",
+      "require": "./dist/umd/index.umd.cjs"
+    },
+    "./dist/": {
+      "import": "./dist/",
+      "require": "./dist/"
+    },
+    "./es/locale": {
+      "types": "./dist/types/locale/index.d.ts",
+      "import": "./dist/es/locale/lang/index.js",
+      "require": "./dist/umd/locale/lang.umd.cjs"
+    }
+  },
+  "sideEffects": [
+    "./dist/index.css",
+    "./dist/theme/**/*.css"
+  ],
+  "scripts": {
+    "build-es": "vite build  --config vite-es.config.ts",
+    "build-umd": "vite build --config vite.umd.config.ts",
+    "build-umd-locale": "vite build --config vite.umd.locale.config.ts",
+    "build": "npm-run-all build-es build-umd build-umd-locale"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/shelljs": "0.10.0",
+    "@bani/components": "workspace:*",
+    "@bani/utils": "workspace:*",
+    "@bani/theme": "workspace:*",
+    "vite-plugin-compression2": "2.5.3",
+    "npm-run-all": "4.1.5",
+    "shelljs": "0.10.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.2.0",
+    "@fortawesome/free-solid-svg-icons": "^7.2.0",
+    "@fortawesome/vue-fontawesome": "^3.2.0",
+    "vue3-i18n": "^1.1.5",
+    "@popperjs/core": "2.11.8",
+    "async-validator": "4.2.5"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.19"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

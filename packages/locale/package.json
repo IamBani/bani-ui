@@ -1,0 +1,12 @@
+{
+  "name": "@bani/locale",
+  "version": "1.0.0",
+  "description": "Bani UI Locale",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "module": "index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

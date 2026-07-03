@@ -1,0 +1,22 @@
+{
+  "name": "@bani/docs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitepress-demo-preview/component": "2.6.2",
+    "@vitepress-demo-preview/plugin": "1.4.1",
+    "@vitepress-demo-preview/core": "0.3.0",
+    "bani-ui": "alpha",
+    "vitepress": "2.0.0-alpha.17"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@bani/components",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest --run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/test-utils": "^2.4.6",
+    "@vitest/coverage-v8": "3.0.8",
+    "jsdom": "26.0.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "2.11.8",
+    "async-validator": "4.2.5",
+    "@bani/utils": "workspace:*",
+    "@bani/hooks": "workspace:*",
+    "@bani/locale": "workspace:*"
+  }
+}
