@@ -35,19 +35,19 @@ jobs:
       - name: Build docs
         run: pnpm run build:docs
 
-      - name: Debug - test connection
-        run: |
-          echo "Testing bucket: ${{ secrets.SEALOS_BUCKET }}"
-          echo "Testing endpoint: ${{ secrets.SEALOS_ENDPOINT }}"
-          aws s3api list-buckets --endpoint-url ${{ secrets.SEALOS_ENDPOINT }}
-          aws s3 ls s3://${{ secrets.SEALOS_BUCKET }}/ --endpoint-url ${{ secrets.SEALOS_ENDPOINT }}
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.SEALOS_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.SEALOS_SECRET_KEY }}
-          AWS_REGION: us-east-1
-
       - name: Upload to Sealos Object Storage
-        run: aws s3 sync packages/docs/.vitepress/dist/ s3://${{ secrets.SEALOS_BUCKET }}/ --delete --exclude '.git/*' --endpoint-url ${{ secrets.SEALOS_ENDPOINT }}
+        run: |
+          cd packages/docs/.vitepress/dist
+          find . -type f ! -path './.git/*' -exec sh -c '
+            bucket="$1"
+            endpoint="$2"
+            shift 2
+            for f do
+              target="${f#./}"
+              echo "Uploading: $target"
+              aws s3api put-object --bucket "$bucket" --key "$target" --body "$f" --endpoint-url "$endpoint" || exit 1
+            done
+          ' sh "${{ secrets.SEALOS_BUCKET }}" "${{ secrets.SEALOS_ENDPOINT }}" {} +
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SEALOS_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SEALOS_SECRET_KEY }}
