@@ -1,0 +1,45 @@
+name: Deploy Docs to Sealos
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "packages/docs/**"
+      - "packages/components/**"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build docs
+        run: pnpm run build:docs
+
+      - name: Upload to Sealos Object Storage
+        uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --delete --exclude '.git/*'
+        env:
+          AWS_S3_BUCKET: ${{ secrets.SEALOS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.SEALOS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SEALOS_SECRET_KEY }}
+          AWS_S3_ENDPOINT: ${{ secrets.SEALOS_ENDPOINT }}
+          AWS_REGION: us-east-1
+          SOURCE_DIR: packages/docs/.vitepress/dist
