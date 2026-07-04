@@ -71,5 +71,15 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SEALOS_SECRET_KEY }}
           AWS_REGION: us-east-1
 
+      - name: Upload root redirect
+        if: github.event.action != 'closed'
+        run: |
+          redirect='<html><head><meta http-equiv="refresh" content="0;url=/bani-ui/"><script>location.href="/bani-ui/"</script></head><body><a href="/bani-ui/">Redirecting to /bani-ui/</a></body></html>'
+          echo "$redirect" | aws s3api put-object --bucket "${{ secrets.SEALOS_PREVIEW_BUCKET }}" --key "index.html" --body /dev/stdin --content-type "text/html" --endpoint-url "${{ secrets.SEALOS_ENDPOINT }}"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SEALOS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SEALOS_SECRET_KEY }}
+          AWS_REGION: us-east-1
+
       # PR 关闭时：清理预览（需手动在 Sealos 控制台删除预览桶文件）
       # 由于密钥没有 ListBucket 权限，无法自动列出并删除对象
