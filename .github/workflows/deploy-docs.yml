@@ -44,8 +44,23 @@ jobs:
             shift 2
             for f do
               target="${f#./}"
-              echo "Uploading: $target"
-              aws s3api put-object --bucket "$bucket" --key "$target" --body "$f" --endpoint-url "$endpoint" || exit 1
+              target="bani-ui/$target"
+              case "$target" in
+                *.html)   type="text/html" ;;
+                *.css)    type="text/css" ;;
+                *.js)     type="application/javascript" ;;
+                *.png)    type="image/png" ;;
+                *.jpg|*.jpeg) type="image/jpeg" ;;
+                *.svg)    type="image/svg+xml" ;;
+                *.ico)    type="image/x-icon" ;;
+                *.woff2)  type="font/woff2" ;;
+                *.woff)   type="font/woff" ;;
+                *.json)   type="application/json" ;;
+                *.map)    type="application/json" ;;
+                *)        type="application/octet-stream" ;;
+              esac
+              echo "Uploading: $target ($type)"
+              aws s3api put-object --bucket "$bucket" --key "$target" --body "$f" --content-type "$type" --endpoint-url "$endpoint" || exit 1
             done
           ' sh "${{ secrets.SEALOS_BUCKET }}" "${{ secrets.SEALOS_ENDPOINT }}" {} +
         env:
