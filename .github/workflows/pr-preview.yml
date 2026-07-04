@@ -29,6 +29,10 @@ jobs:
         if: github.event.action != 'closed'
         run: pnpm install
 
+      - name: Build bani-ui
+        if: github.event.action != 'closed'
+        run: pnpm run build
+
       - name: Build docs
         if: github.event.action != 'closed'
         run: pnpm run build:docs
