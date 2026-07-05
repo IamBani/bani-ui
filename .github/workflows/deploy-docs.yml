@@ -62,6 +62,10 @@ jobs:
               aws s3api put-object --bucket "$bucket" --key "$target" --body "$f" --content-type "$type" --endpoint-url "$endpoint" || exit 1
             done
           ' sh "${{ secrets.SEALOS_BUCKET }}" "${{ secrets.SEALOS_ENDPOINT }}" {} +
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SEALOS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SEALOS_SECRET_KEY }}
+          AWS_REGION: us-east-1
 
       - name: Upload root redirect
         run: |
