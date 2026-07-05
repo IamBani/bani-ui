@@ -16,7 +16,7 @@
     "@vitepress-demo-preview/component": "2.6.2",
     "@vitepress-demo-preview/plugin": "1.4.1",
     "@vitepress-demo-preview/core": "0.3.0",
-    "bani-ui": "latest",
+    "bani-ui": "workspace:*",
     "vitepress": "2.0.0-alpha.17"
   }
 }
