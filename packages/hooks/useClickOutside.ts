@@ -1,11 +1,11 @@
-import { type Ref, onMounted } from "vue";
+import { type Ref } from "vue";
 import useEventListener from "./useEventListener";
 
 export default function useClickOutside(
   elementRef: Ref<HTMLElement | void>,
   callback: (e: MouseEvent) => void,
 ) {
-  onMounted(() => {
+  if (typeof document !== "undefined") {
     useEventListener(document, "click", (e: Event) => {
       if (elementRef.value && e.target) {
         if (!elementRef.value.contains(e.target as HTMLElement)) {
@@ -13,5 +13,5 @@ export default function useClickOutside(
         }
       }
     });
-  });
+  }
 }
