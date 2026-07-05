@@ -1,4 +1,4 @@
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/en.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/en.js
 var English = {
   name: "en",
   el: {
@@ -197,4 +197,4 @@ var English = {
 export {
   English
 };
-//# sourceMappingURL=chunk-OFEOV2WQ.js.map
+//# sourceMappingURL=chunk-TCRKE77U.js.map

@@ -1,8 +1,8 @@
 import {
   English
-} from "./chunk-OFEOV2WQ.js";
+} from "./chunk-TCRKE77U.js";
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/af.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/af.js
 var af = {
   name: "af",
   el: {
@@ -258,7 +258,7 @@ var af = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ar-eg.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ar-eg.js
 var arEg = {
   name: "ar-eg",
   el: {
@@ -485,7 +485,7 @@ var arEg = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ar.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ar.js
 var ar = {
   name: "ar",
   el: {
@@ -723,7 +723,7 @@ var ar = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/az.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/az.js
 var az = {
   name: "az",
   el: {
@@ -973,7 +973,7 @@ var az = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/bg.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/bg.js
 var bg = {
   name: "bg",
   el: {
@@ -1234,7 +1234,7 @@ var bg = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/bn.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/bn.js
 var bn = {
   name: "bn",
   el: {
@@ -1480,7 +1480,7 @@ var bn = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ca.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ca.js
 var ca = {
   name: "ca",
   el: {
@@ -1728,7 +1728,7 @@ var ca = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ckb.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ckb.js
 var ckb = {
   name: "ckb",
   el: {
@@ -1952,7 +1952,7 @@ var ckb = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/cs.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/cs.js
 var cs = {
   name: "cs",
   el: {
@@ -2205,7 +2205,7 @@ var cs = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/da.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/da.js
 var da = {
   name: "da",
   el: {
@@ -2457,7 +2457,7 @@ var da = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/de.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/de.js
 var de = {
   name: "de",
   el: {
@@ -2694,7 +2694,7 @@ var de = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/el.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/el.js
 var el = {
   name: "el",
   el: {
@@ -2945,7 +2945,7 @@ var el = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/eo.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/eo.js
 var eo = {
   name: "eo",
   el: {
@@ -3194,7 +3194,7 @@ var eo = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/es.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/es.js
 var es = {
   name: "es",
   el: {
@@ -3442,7 +3442,7 @@ var es = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/et.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/et.js
 var et = {
   name: "et",
   el: {
@@ -3689,7 +3689,7 @@ var et = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/eu.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/eu.js
 var eu = {
   name: "eu",
   el: {
@@ -3937,7 +3937,7 @@ var eu = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/fa.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/fa.js
 var fa = {
   name: "fa",
   el: {
@@ -4147,7 +4147,7 @@ var fa = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/fi.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/fi.js
 var fi = {
   name: "fi",
   el: {
@@ -4398,7 +4398,7 @@ var fi = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/fr.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/fr.js
 var fr = {
   name: "fr",
   el: {
@@ -4600,7 +4600,7 @@ var fr = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/he.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/he.js
 var he = {
   name: "he",
   el: {
@@ -4847,7 +4847,7 @@ var he = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hi.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hi.js
 var hi = {
   name: "hi",
   el: {
@@ -5057,7 +5057,7 @@ var hi = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hr.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hr.js
 var hr = {
   name: "hr",
   el: {
@@ -5308,7 +5308,7 @@ var hr = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hu.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hu.js
 var hu = {
   name: "hu",
   el: {
@@ -5559,7 +5559,7 @@ var hu = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hy-am.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/hy-am.js
 var hyAm = {
   name: "hy-am",
   el: {
@@ -5810,7 +5810,7 @@ var hyAm = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/id.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/id.js
 var id = {
   name: "id",
   el: {
@@ -6056,7 +6056,7 @@ var id = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/it.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/it.js
 var it = {
   name: "it",
   el: {
@@ -6308,7 +6308,7 @@ var it = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ja.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ja.js
 var ja = {
   name: "ja",
   el: {
@@ -6552,7 +6552,7 @@ var ja = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/kk.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/kk.js
 var kk = {
   name: "kk",
   el: {
@@ -6803,7 +6803,7 @@ var kk = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/km.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/km.js
 var km = {
   name: "km",
   el: {
@@ -7013,7 +7013,7 @@ var km = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ko.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ko.js
 var ko = {
   name: "ko",
   el: {
@@ -7236,7 +7236,7 @@ var ko = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ku.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ku.js
 var ku = {
   name: "ku",
   el: {
@@ -7487,7 +7487,7 @@ var ku = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ky.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ky.js
 var ky = {
   name: "ky",
   el: {
@@ -7738,7 +7738,7 @@ var ky = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/lo.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/lo.js
 var lo = {
   name: "lo",
   el: {
@@ -7948,7 +7948,7 @@ var lo = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/lt.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/lt.js
 var lt = {
   name: "lt",
   el: {
@@ -8196,7 +8196,7 @@ var lt = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/lv.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/lv.js
 var lv = {
   name: "lv",
   el: {
@@ -8447,7 +8447,7 @@ var lv = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/mg.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/mg.js
 var mg = {
   name: "mg",
   el: {
@@ -8693,7 +8693,7 @@ var mg = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/mn.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/mn.js
 var mn = {
   name: "mn",
   el: {
@@ -8944,7 +8944,7 @@ var mn = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ms.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ms.js
 var ms = {
   name: "ms",
   el: {
@@ -9158,7 +9158,7 @@ var ms = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/my.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/my.js
 var my = {
   name: "my",
   el: {
@@ -9368,7 +9368,7 @@ var my = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/nb-no.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/nb-no.js
 var nbNo = {
   name: "nb-no",
   el: {
@@ -9616,7 +9616,7 @@ var nbNo = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/nl.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/nl.js
 var nl = {
   name: "nl",
   el: {
@@ -9843,7 +9843,7 @@ var nl = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/no.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/no.js
 var no = {
   name: "no",
   el: {
@@ -10053,7 +10053,7 @@ var no = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pa.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pa.js
 var pa = {
   name: "pa",
   el: {
@@ -10302,7 +10302,7 @@ var pa = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pl.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pl.js
 var pl = {
   name: "pl",
   el: {
@@ -10546,7 +10546,7 @@ var pl = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pt-br.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pt-br.js
 var ptBr = {
   name: "pt-br",
   el: {
@@ -10790,7 +10790,7 @@ var ptBr = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pt.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/pt.js
 var pt = {
   name: "pt",
   el: {
@@ -11051,7 +11051,7 @@ var pt = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ro.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ro.js
 var ro = {
   name: "ro",
   el: {
@@ -11302,7 +11302,7 @@ var ro = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ru.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ru.js
 var ru = {
   name: "ru",
   el: {
@@ -11536,7 +11536,7 @@ var ru = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sk.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sk.js
 var sk = {
   name: "sk",
   el: {
@@ -11789,7 +11789,7 @@ var sk = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sl.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sl.js
 var sl = {
   name: "sl",
   el: {
@@ -12041,7 +12041,7 @@ var sl = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sr.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sr.js
 var sr = {
   name: "sr",
   el: {
@@ -12284,7 +12284,7 @@ var sr = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sv.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sv.js
 var sv = {
   name: "sv",
   el: {
@@ -12534,7 +12534,7 @@ var sv = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sw.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/sw.js
 var sw = {
   name: "sw",
   el: {
@@ -12752,7 +12752,7 @@ var sw = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ta.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ta.js
 var ta = {
   name: "ta",
   el: {
@@ -13009,7 +13009,7 @@ var ta = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/te.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/te.js
 var te = {
   name: "te",
   el: {
@@ -13219,7 +13219,7 @@ var te = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/th.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/th.js
 var th = {
   name: "th",
   el: {
@@ -13469,7 +13469,7 @@ var th = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/tk.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/tk.js
 var tk = {
   name: "tk",
   el: {
@@ -13724,7 +13724,7 @@ var tk = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/tr.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/tr.js
 var tr = {
   name: "tr",
   el: {
@@ -13971,7 +13971,7 @@ var tr = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ug-cn.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/ug-cn.js
 var ugCn = {
   name: "ug-cn",
   el: {
@@ -14222,7 +14222,7 @@ var ugCn = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/uk.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/uk.js
 var uk = {
   name: "uk",
   el: {
@@ -14470,7 +14470,7 @@ var uk = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/uz-uz.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/uz-uz.js
 var uzUz = {
   name: "uz-uz",
   el: {
@@ -14719,7 +14719,7 @@ var uzUz = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/vi.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/vi.js
 var vi = {
   name: "vi",
   el: {
@@ -14915,7 +14915,7 @@ var vi = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-cn.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-cn.js
 var zhCn = {
   name: "zh-cn",
   el: {
@@ -15111,7 +15111,7 @@ var zhCn = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-tw.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-tw.js
 var zhTw = {
   name: "zh-tw",
   el: {
@@ -15319,7 +15319,7 @@ var zhTw = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-hk.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-hk.js
 var zhHk = {
   name: "zh-hk",
   el: {
@@ -15527,7 +15527,7 @@ var zhHk = {
   }
 };
 
-// ../../node_modules/.pnpm/bani-ui@1.0.2-alpha.14_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-mo.js
+// ../../node_modules/.pnpm/bani-ui@1.0.2_vue@3.5.34_typescript@5.9.3_/node_modules/bani-ui/dist/es/locale/lang/zh-mo.js
 var zhMo = {
   name: "zh-mo",
   el: {

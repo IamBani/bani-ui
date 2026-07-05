@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: 开始使用
       link: /get-started
-    - theme: alt
-      text: API 示例
-      link: /api-examples
+    # - theme: alt
+    #   text: API 示例
+    #   link: /api-examples
 
 features:
   - title: 功能覆盖和兼容性
